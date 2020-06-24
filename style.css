@@ -24,7 +24,8 @@
 
 
 .card-1 .card__img {
-  background-image: url("https://picsum.photos/300/300");
+  /* background-image: url("https://picsum.photos/300/300"); */
+  background-color: var(--cream);
 }
 
 .card__img {
@@ -88,7 +89,7 @@
 }
 
 .price{
-  color: var(--silver);
+  color: var(--dark);
   padding: 0 0.5rem 0 0;
 
 }
