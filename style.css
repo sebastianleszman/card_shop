@@ -122,11 +122,11 @@
   }
   .card__img {
     /* img height */
-    height: 30vh;
+    height: 40vh;
   }
   .card {
     /* card height */
-    height: 50vh;
+    height: 60vh;
   }
 }
 
