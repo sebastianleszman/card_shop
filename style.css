@@ -135,7 +135,18 @@
   html {
     font-size: 1rem;
   }
-  
+  .cards {
+    /* card width */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+  .card__img {
+    /* img height */
+    height: 20vh;
+  }
+  .card {
+    /* card height */
+    height: 40vh;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
