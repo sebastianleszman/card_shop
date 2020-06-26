@@ -176,5 +176,16 @@
   html {
     font-size: 1.2rem;
   }
-  
+  .cards {
+    /* card width */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  .card__img {
+    /* img height */
+    height: 25vh;
+  }
+  .card {
+    /* card height */
+    height: 30vh;
+  }
 }
