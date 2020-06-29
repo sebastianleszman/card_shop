@@ -329,11 +329,22 @@ h6 {
 .card__info {
   width: 100%;
   background-color: transparent;
+   padding: 0 0 0 0.5rem;
+   margin: 0 0 0.5rem 0;
 }
 
 .card__tag{
   text-align: left;
   text-transform: uppercase;
+}
+
+.card__category{
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: var(--silver);
 }
 
 .card__title {
